@@ -1,0 +1,92 @@
+
+.form-control{
+    
+    margin-left: 10px;
+    padding: 10px;
+    
+}
+ 
+#login-containerBox{
+    height: 750px;
+    
+    flex-direction: column;
+    
+
+
+    display: flex;
+    border: 10px solid rgba(2, 112, 0, 1) ;
+
+    border-image-source: linear-gradient(0deg, #027000, #027000),
+    linear-gradient(180deg, #16BC27 50%, rgba(255, 255, 255, 0) 50%);
+
+
+
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(0deg, #039658, #039658);
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+
+    margin-left: 5px;
+    margin-right : 5px;
+ 
+
+}
+
+h1{
+    
+    margin-top: 125px;
+    margin-right: 40px;
+    margin-left: 20px;
+   
+}
+#borderBox{
+ 
+   
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+   padding: 20px;
+   width: 300px;
+   border-radius: 58px;
+   background: rgb(226, 226, 226);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#btn-login{
+    
+    padding: 20px;
+    width: 125px;
+   
+    margin-left: 80px;
+
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+}
+#btn-register{
+    display: block;
+    position: absolute; 
+    padding: 20px;
+    width: 125px;
+    
+    
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    margin-top: 20px;
+    margin-left: 350px;
+}
+#room{
+    display: inline-flex;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 58px; 
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    margin-left: 5px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/CSS/styleRegister.css">
+    <script defer src="./static/JS/registerScript.js"></script> 
+</head>
+<body>
+    
+    <div class="container" id="container-box">
+        <h1>Create Account</h1>
+   
+   
+        <form method="post" action="/api/accounts" id = "container-form">
+            <div class="form-control">
+                <label for="username" >Username</label>
+                <input id="usernameBox"
+                name="username"
+                class="username"
+                placeholder="Enter username..."
+                required
+                 />
+                 <small id="error">Error Message</small>
+            </div>
+                
+            <div class="form-control">                  
+                <label for="email">Email</label>
+                    <input id="emailBox"
+                    type="text"
+                    name="email"
+                    class="email"
+                    placeholder="Enter email..."
+                    required
+                   />
+                   <small id="error">Error Message</small>
+            </div>
+            
+            
+            <div class="form-control">                  
+                    <label for="password">Password</label>
+                        <input id="passwordBox"
+                        type="password"
+                        name="password"
+                        class ="password"
+                        placeholder="Enter password..."
+                        required
+                       />
+                       <small id="error">Error Message</small>
+                </div>
+                <button type="submit"  id="btn-register">
+                    REGISTER ACCOUNT
+                </button>
+        </form>
+        <button type="submit"  id="btn-login">
+            <a href="./static/login.html">LOGIN PAGE</a>
+        </button>
+   
+    </div>
+
+</body>
+</html>

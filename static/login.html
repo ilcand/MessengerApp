@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/CSS/styleLogin.css">
+    <title>Document</title>
+    <script defer src="../static/JS/loginScript.js"></script>
+</head>
+
+<body>
+    
+   
+    <div id="login-containerBox">
+        
+            <h1>Login Account</h1>
+        </br>
+        
+        
+        <form method="post" action="/api/accounts/auth" id = "form-box">
+         
+    <div class="form-control">
+			<label for="username" >Username</label>
+			<input id="borderBox"
+		    type="text"
+			name="username"
+            id="username"
+            class="username"
+			placeholder="Enter username..."
+			required
+						/>
+                    </div>
+    <div class="form-control">                  
+    <label for="password">Password</label>
+        <input id="borderBox"
+        type="password"
+        name="password"
+        id="password"
+        class="password"
+        placeholder="Enter password..."
+        required
+       />
+     </div>
+     <!--
+     <div class="form-control">
+        <label for="room">Room</label>
+        <select name="room" id="room">
+            <option value="room1">room 1</option>
+            <option value="room2">room 2</option>
+            <option value="room3">room 3</option>
+            <option value="room4">room 4</option>
+            <option value="room5">room 5</option>
+            <option value="room6">room 6</option>
+        </select>
+    
+    </div>
+-->
+</br>
+
+
+    <button type="submit" class="btn" id="btn-login" >LOGIN</button>
+    
+            </form>
+        </br>
+            <button type="hyperlink"  id="btn-register">
+                <a href="/">REGISTER</a>
+            </button>
+
+   
+    </div>
+        
+    
+</body>
+</html>

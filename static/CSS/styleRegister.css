@@ -1,0 +1,112 @@
+
+
+
+
+#container-box{
+    display: flex;
+    border: 10px solid rgba(2, 112, 0, 1) ;
+
+    border-image-source: linear-gradient(0deg, #027000, #027000),
+        linear-gradient(180deg, #16BC27 50%, rgba(255, 255, 255, 0) 50%);
+        margin-right: 10px;
+        height: 500px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 100%),
+        linear-gradient(0deg, #039658, #039658);
+
+
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.55);
+
+
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        flex-direction: column;
+        height:750px;
+}
+
+h1{
+    margin-top: 80px;
+   
+    margin-left: 20px;
+}
+
+#container-form{
+     margin-left: 20px; 
+    justify-self: left;
+    justify-content: left;
+    
+}
+
+.form-control{
+   margin-top: 25px;
+   
+    /*
+    padding: 20px;
+    width: 280px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55); */
+    justify-self: flex-end;
+}
+
+
+#passwordBox{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    width: 300px;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+}
+
+#emailBox{
+    margin-left: 25px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    width: 300px;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+}
+
+#usernameBox{
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+    padding: 20px;
+    width: 300px;
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#btn-register{
+    
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 60px;
+    height: 60px;
+    width: 125px;
+    text-align: center;
+    
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+}
+#btn-login{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 350px;
+    margin-right: 5%;
+    height: 60px;
+    width: 125px;
+    text-align: center;
+  
+    border-radius: 58px;
+    background: rgb(226, 226, 226);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.55);
+}
+
+#error{
+   visibility: hidden; 
+}
